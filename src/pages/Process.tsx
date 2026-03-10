@@ -5,7 +5,7 @@ export const Process = () => {
     <div className="pt-32">
       <section className="py-20 px-6 max-w-7xl mx-auto">
         <FadeIn className="text-center mb-24">
-          <h1 className="text-6xl md:text-8xl mb-8">The <span className="gold-text italic">Doctor's Visit.</span></h1>
+          <h1 className="text-4xl sm:text-5xl md:text-8xl mb-8">The <span className="gold-text italic">Doctor's Visit.</span></h1>
           <p className="text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
             We don't "sell". We diagnose. We only prescribe a solution if the prospect admits to having a problem that we can solve.
           </p>
@@ -34,7 +34,7 @@ export const Process = () => {
             <FadeIn key={i} direction={i % 2 === 0 ? 'right' : 'left'} className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div className={i % 2 === 1 ? 'md:order-2' : ''}>
                 <span className="text-8xl font-serif text-white/5 block mb-4">{item.step}</span>
-                <h3 className="text-4xl mb-6">{item.title}</h3>
+                <h3 className="text-3xl sm:text-4xl mb-6">{item.title}</h3>
                 <p className="text-white/50 text-lg leading-relaxed">{item.desc}</p>
               </div>
               <div className={`aspect-video rounded-3xl bg-white/5 border border-white/10 flex items-center justify-center ${i % 2 === 1 ? 'md:order-1' : ''}`}>

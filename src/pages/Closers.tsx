@@ -8,7 +8,7 @@ export const Closers = () => {
     <div className="pt-32">
       <section className="py-20 px-6 max-w-7xl mx-auto">
         <FadeIn className="text-center mb-24">
-          <h1 className="text-6xl md:text-8xl mb-8">Turn a Skill <br /><span className="gold-text italic">Into a Career.</span></h1>
+          <h1 className="text-4xl sm:text-5xl md:text-8xl mb-8">Turn a Skill <br /><span className="gold-text italic">Into a Career.</span></h1>
           <p className="text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
             Join the elite 1% of sales professionals. We bridge the gap between your ambition and high-ticket placement.
           </p>
@@ -32,7 +32,7 @@ export const Closers = () => {
         {/* Roles Section */}
         <div className="mb-32">
           <FadeIn className="text-center mb-16">
-            <h2 className="text-5xl mb-4">Placement Tracks</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl mb-4">Placement Tracks</h2>
             <p className="text-white/40">From entry-level to strategic management.</p>
           </FadeIn>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -84,7 +84,7 @@ export const Closers = () => {
         {/* FAQ / Objection Handling */}
         <div className="max-w-3xl mx-auto">
           <FadeIn className="text-center mb-16">
-            <h2 className="text-4xl mb-4">Common Questions</h2>
+            <h2 className="text-3xl sm:text-4xl mb-4">Common Questions</h2>
           </FadeIn>
           <div className="space-y-4">
             {[
