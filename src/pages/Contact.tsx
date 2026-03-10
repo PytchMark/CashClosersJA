@@ -18,7 +18,7 @@ export const Contact = () => {
       <section className="px-6 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24">
           <FadeIn direction="right">
-            <h1 className="text-6xl md:text-7xl mb-8">Let's Talk <br /><span className="gold-text italic">Performance.</span></h1>
+            <h1 className="text-4xl sm:text-5xl md:text-7xl mb-8">Let's Talk <br /><span className="gold-text italic">Performance.</span></h1>
             <p className="text-xl text-white/60 mb-12 leading-relaxed">
               Whether you're looking to scale your revenue or your career, the first step is a diagnostic conversation.
             </p>
@@ -26,11 +26,11 @@ export const Contact = () => {
             <div className="space-y-8">
               <div>
                 <h4 className="text-gold uppercase tracking-widest text-xs font-bold mb-4">Email Us</h4>
-                <p className="text-2xl font-serif">hello@cashclosers.com</p>
+                <p className="text-xl sm:text-2xl font-serif">hello@cashclosers.com</p>
               </div>
               <div>
                 <h4 className="text-gold uppercase tracking-widest text-xs font-bold mb-4">Visit Us</h4>
-                <p className="text-2xl font-serif">Powered by Pytch Marketing <br />Global Remote Operations</p>
+                <p className="text-xl sm:text-2xl font-serif">Powered by Pytch Marketing <br />Global Remote Operations</p>
               </div>
             </div>
           </FadeIn>

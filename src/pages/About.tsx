@@ -7,7 +7,7 @@ export const About = () => {
       <section className="py-20 px-6 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center mb-32">
           <FadeIn direction="right">
-            <h1 className="text-6xl md:text-7xl mb-8">Elite Sales. <br /><span className="gold-text italic">Caribbean Heart.</span></h1>
+            <h1 className="text-4xl sm:text-5xl md:text-7xl mb-8">Elite Sales. <br /><span className="gold-text italic">Caribbean Heart.</span></h1>
             <p className="text-xl text-white/60 mb-8 leading-relaxed">
               Cash Closers was founded on a simple principle: Sales shouldn't feel like a transaction. It should feel like a solution.
             </p>
@@ -33,7 +33,7 @@ export const About = () => {
 
         <div className="py-24 border-t border-white/5">
           <FadeIn className="text-center mb-16">
-            <h2 className="text-4xl mb-4 italic">The Cash Closers DNA</h2>
+            <h2 className="text-3xl sm:text-4xl mb-4 italic">The Cash Closers DNA</h2>
           </FadeIn>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[

@@ -23,10 +23,10 @@ export const Navbar = () => {
     <nav 
       className={cn(
         "fixed top-0 left-0 w-full z-50 transition-all duration-500",
-        scrolled ? "py-4 bg-bg/80 backdrop-blur-xl border-bottom border-white/5" : "py-8 bg-transparent"
+        scrolled ? "py-4 bg-bg/80 backdrop-blur-xl border-bottom border-white/5" : "py-5 md:py-8 bg-transparent"
       )}
     >
-      <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-3">
         <Link to="/" className="flex items-center gap-2 group">
           <img 
             src="https://res.cloudinary.com/dd8pjjxsm/image/upload/v1773081022/WhatsApp_Image_2025-09-29_at_09.39.54_adslkb.jpg" 
@@ -34,7 +34,7 @@ export const Navbar = () => {
             className="w-10 h-10 rounded-lg object-cover"
             referrerPolicy="no-referrer"
           />
-          <span className="text-xl font-serif tracking-tight font-medium group-hover:text-gold transition-colors">
+          <span className="text-base sm:text-xl font-serif tracking-tight font-medium group-hover:text-gold transition-colors">
             CASH CLOSERS
           </span>
         </Link>

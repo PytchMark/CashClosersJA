@@ -28,7 +28,7 @@ export const Resources = () => {
     <div className="pt-32">
       <section className="py-20 px-6 max-w-7xl mx-auto">
         <FadeIn className="text-center mb-24">
-          <h1 className="text-6xl md:text-8xl mb-8">Free <span className="gold-text italic">Resources.</span></h1>
+          <h1 className="text-4xl sm:text-5xl md:text-8xl mb-8">Free <span className="gold-text italic">Resources.</span></h1>
           <p className="text-xl text-white/60 max-w-2xl mx-auto leading-relaxed">
             The content, courses, and guided information that helped us build the foundation we have today.
           </p>
@@ -47,7 +47,7 @@ export const Resources = () => {
         </div>
 
         <FadeIn className="p-16 rounded-[3rem] border border-gold/20 bg-gold/5 text-center">
-          <h2 className="text-4xl mb-6 italic">Want the full curriculum?</h2>
+          <h2 className="text-3xl sm:text-4xl mb-6 italic">Want the full curriculum?</h2>
           <p className="text-white/60 max-w-2xl mx-auto text-lg leading-relaxed mb-10">
             Join our internal bootcamp and get certified as a Cash Closer.
           </p>

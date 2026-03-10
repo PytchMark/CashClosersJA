@@ -34,11 +34,11 @@ export const Home = () => {
               </span>
               The Elite Sales Academy
             </div>
-            <h1 className="text-6xl md:text-8xl font-serif leading-[0.9] mb-8">
+            <h1 className="text-4xl sm:text-5xl md:text-8xl font-serif leading-[0.9] mb-8">
               <TextReveal>Master the Art of</TextReveal>
               <TextReveal className="gold-text italic">High-Ticket Sales.</TextReveal>
             </h1>
-            <p className="text-xl text-white/60 max-w-lg mb-10 leading-relaxed">
+            <p className="text-lg sm:text-xl text-white/60 max-w-lg mb-8 sm:mb-10 leading-relaxed">
               Join the Cash Closers Sales Academy. We don't just teach sales; we build careers through elite connections and world-class opportunities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -114,7 +114,7 @@ export const Home = () => {
                 <div className="w-16 h-16 rounded-2xl bg-white/5 flex items-center justify-center mb-8 group-hover:gold-gradient group-hover:text-black transition-all">
                   <Briefcase size={32} />
                 </div>
-                <h2 className="text-4xl mb-6">For Businesses</h2>
+                <h2 className="text-3xl sm:text-4xl mb-6">For Businesses</h2>
                 <p className="text-white/60 text-lg mb-8 leading-relaxed">
                   Stop gambling on unvetted talent. Hire "Certified Cash Closers" trained in our rigorous academy to deliver quality sales experiences that scale your revenue.
                 </p>
@@ -135,7 +135,7 @@ export const Home = () => {
                 <div className="w-16 h-16 rounded-2xl bg-white/5 flex items-center justify-center mb-8 group-hover:gold-gradient group-hover:text-black transition-all">
                   <GraduationCap size={32} />
                 </div>
-                <h2 className="text-4xl mb-6">For Closers</h2>
+                <h2 className="text-3xl sm:text-4xl mb-6">For Closers</h2>
                 <p className="text-white/60 text-lg mb-8 leading-relaxed">
                   Master the art of high-ticket sales. Join our academy, get certified, and access elite connections and world-class opportunities.
                 </p>
